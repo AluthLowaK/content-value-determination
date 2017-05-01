@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+<body onload="loadUser()">
+<h2> Source based Content Value Determination </h2>
+<ul>
+    <li>Source www.bbc.com</li>
+    <li>Take Headlines & Short Summary</li>
+    <li><pre>
+        var titles = document.getElementsByClassName("media__title");
+        var summaries = document.getElementsByClassName("media__summary");
+    </pre>
+    </li>
+</ul>
+<p> A simple approach to determine value of content based on major brand, 
+this is a proof of concept, using a pre-cached version of bbc.co.uk, and following a char distribution model defined https://en.wikipedia.org/wiki/Letter_frequency</p> 
+
+</body>
+</html>
